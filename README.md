@@ -1,10 +1,9 @@
 add-silence-to-mp3
 ==================
 
-This is a bash script which leverages SoX to add 1 second of silence to an existing .mp3 file
+This is a bash script which leverages [Sox](http://sox.sourceforge.net/) to add 1 second of silence to the beginning and end an existing .mp3 file.
 
-converts all .mp3 files in the subfolders of where this script is executed to contain 1 second of silence at the start and end of the file
+All converted files will be in the new subdirectory "converted" inside the directory where this script is executed; the original files will not be touched.
 
-all converted files will be in the new subdirectory "converted" inside the directory where this script is executed; the original files will not be touched
+I put this script together to batch process hundreds of audio files at work. It's not pretty but it works well!
 
-you have to install sox prior to running this script http://sox.sourceforge.net/
